@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>QLTS </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	
+		<span class="contact100-form-title">
+					TINH DIEM
+		</span>
+		<h2>Vui lòng chọn khu vuc:</h2>
+		  <ul>
+		  <li class="type">
+		    <input type="radio" id="X" value="X" name="selectorKV">
+		    <label for="uberX">X</label>
+		    
+		    <div class="check"></div>
+		  </li>
+
+          <li class="type">
+		    <input type="radio" id="A" value="A" name="selectorKV">
+		    <label for="uberX">Khu vuc A</label>
+		    
+		    <div class="check"></div>
+		  </li>
+		  
+		  <li class="type">
+		    <input type="radio" id="B" value="B" name="selectorKV">
+		    <label for="uberSUV">Khu vuc B</label>
+		    <div class="check"></div>
+		  </li>
+		  
+		  <li class="type">
+		    <input type="radio" id="C"   value="C" name="selectorKV">
+		    <label for="uberBlack">Khu vuc C</label>
+		    <div class="check"></div>
+		  </li>
+		</ul>
+
+	</div>
+		<div style="clear:both;"></div>
+    
+        <h2>Vui lòng chọn doi tuong thi:</h2>
+        <ul>
+        <li class="type">
+          <input type="radio" id="Khong" value="Khong" name="selector">
+          <label for="uberX">Khong phai doi tuong uu tien</label>
+          
+          <div class="check"></div>
+        </li>
+
+        <li class="type">
+          <input type="radio" id="DT1" value="DT1" name="selector">
+          <label for="uberX">Doi tuong 1</label>
+          
+          <div class="check"></div>
+        </li>
+        
+        <li class="type">
+          <input type="radio" id="DT2" value="DT2" name="selector">
+          <label for="uberSUV">Doi tuong 2</label>
+          <div class="check"></div>
+        </li>
+        
+        <li class="type">
+          <input type="radio" id="DT3"   value="DT3" name="selector">
+          <label for="uberBlack">Doi tuong 3</label>
+          <div class="check"></div>
+        </li>
+      </ul>
+
+  </div>
+      <div style="clear:both;"></div>
+		
+			<form class="contact100-form">
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<h2>Nhập vào so diem 3 mon </h2>
+					<input id="subject1" class="input100" type="text" name="name" placeholder="Mon thu nhat">
+					<span class="focus-input100"></span>
+                    <input id="subject2" class="input100" type="text" name="name" placeholder="Mon thu hai">
+					<span class="focus-input100"></span>
+                    <input id="subject3" class="input100" type="text" name="name" placeholder="Mon thu ba">
+					<span class="focus-input100"></span>
+					
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<h2>Nhập diem chuan cua hoi dong thi </h2>
+					<input id="diemchuan" class="input100" type="text" name="name" placeholder="diem chuan">
+					<span class="focus-input100"></span>
+					
+				</div>
+
+				<div class="wrap-contact100-form-btn">
+					<div class="contact100-form-bgbtn"></div>
+					<button onclick="tinhDiem()" type="button" class="contact100-form-btn">
+						TÍNH DIEM
+					</button>
+				</div>
+				
+			</form>
+			
+			<p id="result" ></p>
+			
+		</div>
+	</div>
+
+
+
+
+    <script src="./qlts.js"></script>
+
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	
+
+
+
+
+</body>
+</html>
